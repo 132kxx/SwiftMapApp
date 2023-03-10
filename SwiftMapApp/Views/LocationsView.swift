@@ -20,7 +20,6 @@ struct LocationsView: View {
                 .ignoresSafeArea()
             
             VStack(spacing: 0) {
-                
                 header
                     .padding()
                 
@@ -59,7 +58,6 @@ extension LocationsView {
                             .rotationEffect(Angle(degrees: vm.showLocationsList ? 180 : 0))
                     }
             }
-
             if vm.showLocationsList {
                 LocationsListView()
             }
