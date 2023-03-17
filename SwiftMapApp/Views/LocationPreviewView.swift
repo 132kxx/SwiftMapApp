@@ -11,6 +11,8 @@ struct LocationPreviewView: View {
     
     let location: Location
     
+    @EnvironmentObject private var vm: LocationsViewModel
+    
     var body: some View {
         HStack(alignment: .bottom, spacing: 0) {
             VStack(alignment: .leading, spacing: 16.0) {
@@ -40,7 +42,9 @@ struct LocationPreviewView_Previews: PreviewProvider {
         ZStack {
             Color.green.ignoresSafeArea()
             LocationPreviewView(location: LocationsDataService.locations.first!)
+                .padding()
         }
+        .environmentObject(LocationsViewModel())
     }
 }
 
@@ -87,7 +91,7 @@ extension LocationPreviewView {
     
     private var nextButton: some View {
         Button {
-            //
+            vm.nextButtomPressed()
         } label: {
             Text("Next")
                 .font(.headline)

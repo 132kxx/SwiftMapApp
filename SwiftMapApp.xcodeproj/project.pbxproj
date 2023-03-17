@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B459164E29C4258900BE9070 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B459164D29C4258900BE9070 /* LocationMapAnnotationView.swift */; };
 		B4D0A74E29B6F9D100AC4A74 /* SwiftMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D0A74D29B6F9D100AC4A74 /* SwiftMapAppApp.swift */; };
 		B4D0A75529B6F9D300AC4A74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D0A75429B6F9D300AC4A74 /* Preview Assets.xcassets */; };
 		B4D0A75C29B6FA8400AC4A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D0A75B29B6FA8300AC4A74 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B459164D29C4258900BE9070 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 		B4D0A74A29B6F9D100AC4A74 /* SwiftMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D0A74D29B6F9D100AC4A74 /* SwiftMapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMapAppApp.swift; sourceTree = "<group>"; };
 		B4D0A75429B6F9D300AC4A74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				B4D0A76529B6FC9800AC4A74 /* LocationsView.swift */,
 				B4D0A76929B7165C00AC4A74 /* LocationsListView.swift */,
 				B4F07FA029BAEB6C003DB05D /* LocationPreviewView.swift */,
+				B459164D29C4258900BE9070 /* LocationMapAnnotationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				B4F07FA129BAEB6C003DB05D /* LocationPreviewView.swift in Sources */,
 				B4D0A76129B6FB2300AC4A74 /* Location.swift in Sources */,
 				B4D0A74E29B6F9D100AC4A74 /* SwiftMapAppApp.swift in Sources */,
+				B459164E29C4258900BE9070 /* LocationMapAnnotationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
